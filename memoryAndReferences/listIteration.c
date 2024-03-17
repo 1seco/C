@@ -6,9 +6,11 @@ void iterate(int *x, int len){  // tell that its a pointer
     }
 }
 
+// For multi-dimensional, just nest the for loops.
 int main(){
     int a[5] = {1, 2, 3, 4, 5};
-    iterate(a, 5);
+    iterate(a, 5); 
+    // same as just void iterate and int everything but useless :/
     // pass over the pointer
 }
 
